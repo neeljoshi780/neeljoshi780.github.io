@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neel Joshi | Full Stack Java Developer</title>
+    <meta
+      name="description"
+      content="Neel Joshi — Full Stack Java Developer specializing in Spring Boot microservices, REST APIs, Angular, and SaaS ERP platforms."
+    />
+    <meta name="author" content="Neel Joshi" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Neel Joshi | Full Stack Java Developer" />
+    <meta
+      property="og:description"
+      content="Spring Boot · Microservices · Angular · SaaS ERP. Building scalable, secure backend systems."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css" />
+
+    <!-- FontAwesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/6ea150082f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ===== Navbar ===== -->
+    <header>
+      <nav class="navbar">
+        <a href="#home" class="nav-logo">neeljoshi<span>.</span></a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="./Assets/File/Neel_Joshi_Resume.pdf" target="_blank" rel="noopener">
+            <button class="btn-primary">RESUME</button>
+          </a>
+          <i id="bars" class="fa-solid fa-bars" aria-label="Open menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===== Home / Hero ===== -->
+    <section class="home" id="home">
+      <div class="home-overlay"></div>
+      <div class="home-info">
+        <span class="status-pill"
+          ><span class="status-dot"></span> Open to opportunities</span
+        >
+        <p class="home-greet">Hi, I'm</p>
+        <span class="home-name">Neel Joshi</span>
+        <h1 class="home-role">Full Stack Java Developer</h1>
+        <p class="home-tagline">
+          I build <span id="typed" class="typed-text"></span
+          ><span class="type-cursor">|</span>
+        </p>
+        <p class="home-desc">
+          I design and maintain scalable, secure backend systems and REST APIs
+          for SaaS based microservices ERP platforms, with a focus on clean and
+          maintainable code.
+        </p>
+        <div class="home-links">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a
+            href="https://www.linkedin.com/in/neeljoshi780"
+            target="_blank"
+            rel="noopener"
+            class="btn-ghost"
+            ><i class="fa-brands fa-linkedin-in"></i>&nbsp; LinkedIn</a
+          >
+          <a
+            href="https://github.com/neeljoshi780"
+            target="_blank"
+            rel="noopener"
+            class="btn-ghost"
+            ><i class="fa-brands fa-github"></i>&nbsp; GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about reveal" id="about">
+      <h2 class="section-tag">ABOUT</h2>
+      <h3 class="section-title">About Me</h3>
+      <div class="about-info">
+        <div class="about-info-left">
+          <img src="./Assets/Images/neeljoshi.jpg" alt="Neel Joshi" />
+        </div>
+        <div class="about-info-right">
+          <h4>Full Stack Java Developer</h4>
+          <p class="about-bio">
+            Full Stack Java Developer experienced in building and maintaining a
+            SaaS-based microservices ERP platform for manufacturing operations.
+            Strong in Spring Boot REST API development, CRM module engineering,
+            and reusable backend architecture used across multiple ERP services.
+            Skilled in Angular integration and securing services with Spring
+            Security, Keycloak, JWT and OAuth2, with a focus on clean,
+            maintainable code for scalable enterprise software.
+          </p>
+          <div class="about-details">
+            <div class="about-detail">
+              <span class="label">Name</span><span>Neel Devram Joshi</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Role</span
+              ><span>Full Stack Java Developer</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Location</span
+              ><span>Ahmedabad, Gujarat, India</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Email</span
+              ><span>neeljoshi780@gmail.com</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Phone</span><span>+91 81600 62992</span>
+            </div>
+            <div class="about-detail">
+              <span class="label">Education</span><span>MCA — Gujarat Vidyapith</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-num" data-target="4">0</span
+            ><span class="stat-plus">+</span>
+          </div>
+          <p>Projects Built</p>
+        </div>
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-num" data-target="30">0</span
+            ><span class="stat-plus">+</span>
+          </div>
+          <p>Technologies</p>
+        </div>
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-num" data-target="6">0</span
+            ><span class="stat-plus">+</span>
+          </div>
+          <p>ERP / CRM Modules</p>
+        </div>
+        <div class="stat">
+          <div class="stat-value">
+            <span class="stat-num" data-target="2">0</span>
+          </div>
+          <p>Degrees (MCA, BCA)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="skills reveal" id="skills">
+      <h2 class="section-tag">SKILLS</h2>
+      <h3 class="section-title">My Tech Stack</h3>
+      <!-- Add a category by copying one <div class="skill-card"> ... </div>.
+           The grid reflows automatically for any number of cards. -->
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <i class="fa-solid fa-code"></i><span>Languages</span>
+          </div>
+          <div class="badges">
+            <span>Java</span><span>JavaScript</span><span>TypeScript</span>
+            <span>SQL</span><span>HTML5</span><span>CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <i class="fa-solid fa-server"></i><span>Backend</span>
+          </div>
+          <div class="badges">
+            <span>Spring Boot</span><span>Spring MVC</span
+            ><span>Spring Data JPA</span><span>Hibernate</span
+            ><span>REST APIs</span><span>Microservices</span
+            ><span>API Gateway</span><span>Eureka</span
+            ><span>JasperReports</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <i class="fa-solid fa-shield-halved"></i
+            ><span>Frontend &amp; Security</span>
+          </div>
+          <div class="badges">
+            <span>Angular</span><span>Bootstrap</span><span>Responsive UI</span>
+            <span>Spring Security</span><span>Keycloak</span><span>JWT</span>
+            <span>OAuth2</span><span>RBAC</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <i class="fa-solid fa-database"></i><span>Database</span>
+          </div>
+          <div class="badges">
+            <span>MySQL</span><span>JPA / Hibernate</span><span>Liquibase</span>
+            <span>Schema Design</span><span>Migrations</span
+            ><span>Query Optimization</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <i class="fa-solid fa-sitemap"></i
+            ><span>Architecture &amp; SaaS</span>
+          </div>
+          <div class="badges">
+            <span>SaaS ERP</span><span>Microservices SaaS</span
+            ><span>Modular Architecture</span><span>Multi-Tenant</span>
+            <span>OOP</span><span>Design Patterns</span><span>MVC</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-head">
+            <i class="fa-solid fa-toolbox"></i><span>Tools &amp; Cloud</span>
+          </div>
+          <div class="badges">
+            <span>Git</span><span>GitHub</span><span>Postman</span>
+            <span>Docker</span><span>Linux</span><span>Maven</span
+            ><span>AWS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="experience reveal" id="experience">
+      <h2 class="section-tag">EXPERIENCE</h2>
+      <h3 class="section-title">Where I've Worked</h3>
+      <!-- Add another job by copying a full <div class="timeline-item"> ... </div>.
+           The connecting line and spacing appear automatically between items. -->
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <h4>Full Stack Java Developer</h4>
+              <span class="timeline-date">Mar 2026 – Present</span>
+            </div>
+            <p class="timeline-company">
+              Nyaalkaran Tech Private Limited · Ahmedabad
+            </p>
+            <ul class="timeline-points">
+              <li>
+                Develop and maintain Spring Boot microservices powering a
+                SaaS-based manufacturing ERP on a scalable, modular architecture.
+              </li>
+              <li>
+                Design secure REST APIs for CRM and ERP workflows with consistent
+                validation, pagination, sorting, and error handling.
+              </li>
+              <li>
+                Engineer the CRM module end to end — Lead, Account, Contact,
+                Opportunity, Quotation, and Booking Order flows.
+              </li>
+              <li>
+                Build reusable common-library components adopted across multiple
+                ERP services to standardize the backend and cut duplication.
+              </li>
+              <li>
+                Implement security with Spring Security, Keycloak, JWT/OAuth2 and
+                role-based access; integrate APIs with Angular modules.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="section-title sub">Education</h3>
+      <!-- Add a qualification by copying one <div class="edu-card"> ... </div>. -->
+      <div class="edu-grid">
+        <div class="edu-card">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h4>Master of Computer Applications (MCA)</h4>
+          <p>Gujarat Vidyapith, Ahmedabad</p>
+          <span class="edu-meta">2024 – 2026 · CGPA 6.24</span>
+        </div>
+        <div class="edu-card">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h4>Bachelor of Computer Applications (BCA)</h4>
+          <p>BDKM BCA College, Palanpur</p>
+          <span class="edu-meta">2021 – 2024 · CGPA 7.44</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="services reveal" id="services">
+      <h2 class="section-tag">SERVICES</h2>
+      <h3 class="section-title">What I Do</h3>
+      <!-- Add a service by copying one <div class="service-card"> ... </div>. -->
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <h4>Full Stack Web Development</h4>
+          <p>
+            End-to-end web applications with a Java/Spring Boot backend and an
+            Angular frontend.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-server"></i>
+          <h4>Backend &amp; REST APIs</h4>
+          <p>
+            Robust, well-structured REST APIs with validation, pagination,
+            sorting, and clean error handling.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-sitemap"></i>
+          <h4>Microservices Architecture</h4>
+          <p>
+            Scalable, modular microservices with API Gateway and Eureka service
+            discovery for SaaS platforms.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-database"></i>
+          <h4>Database Design &amp; Optimization</h4>
+          <p>
+            MySQL schema design, Hibernate/JPA mapping, Liquibase migrations,
+            and query optimization.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h4>API Security &amp; Auth</h4>
+          <p>
+            Securing services with Spring Security, Keycloak, JWT/OAuth2, and
+            role-based access control.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-bug-slash"></i>
+          <h4>Debugging &amp; Optimization</h4>
+          <p>
+            Diagnosing complex API and database issues and refactoring code for
+            stable, maintainable modules.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="projects reveal" id="projects">
+      <h2 class="section-tag">PROJECTS</h2>
+      <h3 class="section-title">My Projects</h3>
+
+      <h3 class="section-title sub no-top">Professional Work</h3>
+      <!-- Add a project by copying one <article class="project-card"> ... </article>.
+           Use banner-1 / banner-2 / banner-3 for the colored header gradient. -->
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-banner banner-1">
+            <i class="fa-solid fa-industry"></i>
+          </div>
+          <div class="project-body">
+            <h4>Nyaalkaran ERP</h4>
+            <p>
+              A SaaS based manufacturing ERP made up of independent Spring Boot
+              microservices that run behind an API Gateway with Eureka service
+              discovery. Access across the platform is secured with Keycloak
+              using role based permissions.
+            </p>
+            <div class="badges">
+              <span>Spring Boot</span><span>Microservices</span
+              ><span>API Gateway</span><span>Eureka</span><span>Keycloak</span
+              ><span>Angular</span><span>MySQL</span><span>Docker</span
+              ><span>AWS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-banner banner-2">
+            <i class="fa-solid fa-handshake"></i>
+          </div>
+          <div class="project-body">
+            <h4>CRM Module</h4>
+            <p>
+              A sales and customer management suite that handles lead, account,
+              opportunity, quotation, and booking order workflows. It provides
+              advanced list APIs with pagination and search, along with PDF
+              report generation using JasperReports.
+            </p>
+            <div class="badges">
+              <span>Spring Boot</span><span>Spring Data JPA</span
+              ><span>REST APIs</span><span>Spring Security</span
+              ><span>MySQL</span><span>Angular</span><span>JasperReports</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-banner banner-3">
+            <i class="fa-solid fa-cubes"></i>
+          </div>
+          <div class="project-body">
+            <h4>Reusable ERP Common Library</h4>
+            <p>
+              A shared backend library of reusable components such as
+              pagination, sorting, search and filter, validation, DTOs, and
+              base entities. It is used across multiple ERP services to keep
+              patterns consistent and cut down duplicate code.
+            </p>
+            <div class="badges">
+              <span>Java</span><span>Spring Boot</span
+              ><span>Spring Data JPA</span><span>Maven</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="section-title sub">Personal Projects</h3>
+
+      <!-- Featured Project -->
+      <article class="featured-project">
+        <div class="featured-media">
+          <div class="browser-frame">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <img
+              src="./Assets/Images/news_group_management.png"
+              alt="News Group Management multilingual news platform"
+            />
+          </div>
+        </div>
+        <div class="featured-content">
+          <span class="featured-badge"
+            ><i class="fa-solid fa-star"></i> Featured Project</span
+          >
+          <h4>News Group Management</h4>
+          <p class="featured-sub">Multilingual News Sharing Platform</p>
+          <p class="featured-desc">
+            A secure, multilingual news sharing platform where users can read
+            and follow news across multiple languages. It combines strong
+            authentication, real time updates, and a full admin panel for
+            managing users and content.
+          </p>
+          <ul class="feature-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Multilingual news sharing
+              with i18n internationalization
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> OTP and Google based
+              authentication for quick, secure sign in
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Two factor verification
+              for stronger account security
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Brute force attack
+              prevention on the login flow
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Role based admin panel to
+              manage users, posts, and categories
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Email subscription
+              notifications for newly published articles
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Real time news
+              broadcasting using Server Sent Events (SSE)
+            </li>
+          </ul>
+          <p class="planned">
+            <i class="fa-solid fa-lightbulb"></i>
+            <strong>Planned enhancements:</strong> AI based fake news detection,
+            a mobile application, and an analytics dashboard.
+          </p>
+          <div class="badges">
+            <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span
+            ><span>Thymeleaf</span><span>JavaScript</span><span>jQuery</span
+            ><span>AJAX</span>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact reveal" id="contact">
+      <h2 class="section-tag">CONTACT</h2>
+      <h3 class="section-title">Get In Touch</h3>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Location</span>
+          <p>Ahmedabad, Gujarat, India</p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Email</span>
+          <p><a href="mailto:neeljoshi780@gmail.com">neeljoshi780@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-phone-volume"></i>
+          <span>Call &amp; WhatsApp</span>
+          <p><a href="tel:+918160062992">+91 81600 62992</a></p>
+        </div>
+      </div>
+
+      <div class="form-wrap">
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <input type="text" id="subject" placeholder="Subject" required />
+          <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-primary form-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer-section">
+      <div class="footer-info">
+        <div class="footer-col">
+          <h5 class="footer-brand">neeljoshi<span>.</span></h5>
+          <p>Ahmedabad</p>
+          <p>Gujarat, India</p>
+          <p class="footer-spaced"><strong>Phone:</strong> +91 81600 62992</p>
+          <p><strong>Email:</strong> neeljoshi780@gmail.com</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Useful Links</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>What I Do</h5>
+          <ul>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Backend &amp; REST APIs</a></li>
+            <li><a href="#services">Microservices</a></li>
+            <li><a href="#services">Database Design</a></li>
+            <li><a href="#services">API Security</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Connect With Me</h5>
+          <p class="footer-social-text">
+            Let's connect and build something great together.
+          </p>
+          <div class="social-logos">
+            <a href="https://www.linkedin.com/in/neeljoshi780" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/neeljoshi780" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/neeljoshi780" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/neeljoshi780" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1EMoNJ87g9/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="footer-end">
+      <div class="footer-end-info">
+        <p>© Copyright <strong>Neel Joshi</strong>. All rights reserved.</p>
+        <p>Designed &amp; built by <a href="#home">Neel Joshi</a></p>
+      </div>
+    </div>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ===== Scripts ===== -->
+    <script>
+      // Mobile nav toggle
+      const navLinks = document.getElementById("nav-links");
+      const bars = document.getElementById("bars");
+      bars.addEventListener("click", () => navLinks.classList.toggle("open"));
+      navLinks.querySelectorAll("a").forEach((link) =>
+        link.addEventListener("click", () => navLinks.classList.remove("open"))
+      );
+
+      // Reveal on scroll
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 }
+      );
+      document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
+
+      // Scroll progress bar, sticky header state, back-to-top visibility
+      const progress = document.getElementById("scrollProgress");
+      const header = document.querySelector("header");
+      const backToTop = document.getElementById("backToTop");
+      function handleScroll() {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const docHeight =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progress.style.width = pct + "%";
+        header.classList.toggle("scrolled", scrollTop > 30);
+        backToTop.classList.toggle("show", scrollTop > 400);
+      }
+      window.addEventListener("scroll", handleScroll, { passive: true });
+      handleScroll();
+      backToTop.addEventListener("click", () =>
+        window.scrollTo({ top: 0, behavior: "smooth" })
+      );
+
+      // Active nav link highlighting (scrollspy)
+      const spyObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              document.querySelectorAll(".nav-links a").forEach((a) =>
+                a.classList.toggle(
+                  "active",
+                  a.getAttribute("href") === "#" + id
+                )
+              );
+            }
+          });
+        },
+        { rootMargin: "-45% 0px -50% 0px" }
+      );
+      document
+        .querySelectorAll("section[id]")
+        .forEach((s) => spyObserver.observe(s));
+
+      // Animated stat counters
+      const counterObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            const target = parseInt(el.dataset.target, 10);
+            const step = Math.max(1, Math.ceil(target / 40));
+            let current = 0;
+            const tick = () => {
+              current += step;
+              if (current >= target) {
+                el.textContent = target;
+              } else {
+                el.textContent = current;
+                requestAnimationFrame(tick);
+              }
+            };
+            tick();
+            counterObserver.unobserve(el);
+          });
+        },
+        { threshold: 0.5 }
+      );
+      document
+        .querySelectorAll(".stat-num")
+        .forEach((c) => counterObserver.observe(c));
+
+      // Rotating typed tagline
+      const typedEl = document.getElementById("typed");
+      if (typedEl) {
+        const words = [
+          "scalable microservices",
+          "secure REST APIs",
+          "multilingual platforms",
+          "SaaS ERP systems",
+        ];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
+        const type = () => {
+          const word = words[wordIndex];
+          charIndex += deleting ? -1 : 1;
+          typedEl.textContent = word.substring(0, charIndex);
+          let delay = deleting ? 45 : 95;
+          if (!deleting && charIndex === word.length) {
+            delay = 1600;
+            deleting = true;
+          } else if (deleting && charIndex === 0) {
+            deleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            delay = 350;
+          }
+          setTimeout(type, delay);
+        };
+        type();
+      }
+
+      // Contact form -> open email client with prefilled message
+      const form = document.getElementById("contact-form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value;
+        const body =
+          "Name: " + name + "\nEmail: " + email + "\n\n" + message;
+        window.location.href =
+          "mailto:neeljoshi780@gmail.com?subject=" +
+          encodeURIComponent(subject) +
+          "&body=" +
+          encodeURIComponent(body);
+      });
+    </script>
+  </body>
+</html>
