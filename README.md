@@ -13,21 +13,6 @@ CRM/ERP modules. I enjoy writing clean, maintainable code and securing services
 with Spring Security, Keycloak, and JWT/OAuth2. I'm always learning and looking
 to grow as a developer.
 
-## Features
-
-- Fully responsive layout for mobile, tablet, and desktop
-- Smooth scroll reveal animations and animated stat counters
-- Rotating typed tagline, scroll progress bar, and active section navigation
-- Sections for About, Skills, Experience, Services, Projects, and Contact
-- A contact form that opens your email client
-
-## Built With
-
-- HTML5
-- CSS3 (Flexbox and Grid, fully responsive)
-- Vanilla JavaScript
-- Google Fonts and Font Awesome
-
 ## Contact
 
 I'm open to new opportunities and happy to connect:
